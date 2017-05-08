@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-family: 'Arial', Verdana;
+  background: purple;
+}
+
+h2 {
+
+  font-family: 'Arial', Verdana;
+  margin: 20px;
+}
+
+div {
+  font-family: 'Arial', Verdana;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 20px;
+}
