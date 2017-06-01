@@ -1,12 +1,19 @@
 <html>
-<head>
-  <title></title>
-  <script src="_script.js"></script>
-  <script src="_script2.js"></script>
-    <script src="_script3.js"></script>
-</head>
-<body>
 
+    <head>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="_css.css">
+    </head>
 
-</body>
+    <body>
+
+        <form name="myCheckListForm">
+            <input type="text" name="checklistItem">
+            <input type="button" value="Add to List" onclick="processForm()">
+        </form>
+
+        <div id="checkList"></div>
+
+    </body>
+
 </html>
