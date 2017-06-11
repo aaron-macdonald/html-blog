@@ -38,70 +38,151 @@
 
   <section class="container banner">
     <div class="row">
-        <h1>Technical Blog Part 1</h1>
+        <h2>Technical Blog Part 6 - () [] {} '' ""</h2>
       </div>
     </section>
 
     <section class="container">
       <div>
+        <h2> In the JavaScript language, describe all the use cases for each of:</h2>
 
-        <h2>HTML, CSS and the DOM</h2>
-
-        <h4>Design and Structural Wishlist</h4>
-        <h4>HTML</h4>
-          <ul>
-            <li>Webpage Structure</li>
-            <li>Navigation Sections</li>
-            <li>Divisions / Spans / Sections</li>
-          </ul>
-
-          <h4>CSS</h4>
+          <h4> Curly Brackets - Braces - {}</h4>
             <ul>
-              <li>The cascade and specificity</li>
-              <li>Floats and Blocks</li>
-              <li>Reusable Layouts</li>
+              <li>Define the start and end of a function</li>
+                <pre>
+                  function MyFunction() {alert("Hello world!")}
+                </pre>
+              <li>Seperate blocks of code within a function</li>
+                <pre>
+                  function MyFunction(){
+                    if(a==1){
+                      alert("Hello world!")
+                    }else{
+                      alert("Goodbye world!")
+                    }
+                  }</pre>
             </ul>
 
-          <h4>HTML, CSS and the DOM</h4>
-          <p>Webpages consist of HTML (the meat and potatoes), CSS (the plating) and the DOM (what the diner receives)
-          </p>
+            <h4> Round Brackets - Parentheses - () </h4>
+              <ul>
+                <li>The standard parentheses are used for function calls, to surround conditional statements or for grouping to enforce 'order of operations'</li>
+                <pre>
+                  function myFunc() {
+                    if (condition1){}
+                    if ( (1 + 2) * 3) {
+                      // very different from (1 + 2 * 3)}
+                    }
+                </pre>
+              </ul>
 
-          <h4>What is Boxifying Design</h4>
-          <p>Boxifying design is dividing a mockup into rectangle boxes so that it aligns with the Box Model
-          </p>
+              <h4> Square Brackets - Brakets - () </h4>
+                <ul>
+                  <li>Brackets [] are typically mostly used for accessing the properties of an Object (or the elements of an Array), so mylist[3] fetches the fourth element in the Array.</li>
+                  <pre>
+                    var mylist = [1,2,3,4];
+                    alert(mylist[2]);
+                  </pre>
+                </ul>
 
+              <h4> Double Quotes "" vs Single Quotes '' </h4>
+                <ul>
+                  <li>From reading a few blogs I would suggest - Use what your boss wants you to use - as from all accounts it makes no difference within Javascript</li>
+                  <pre>
+                    "He said: \"Let's go!\""
+                    'He said: "Let\'s go!"'
+                    "He said: \"Let\'s go!\""
+                    'He said: \"Let\'s go!\"'
+                  </pre>
+                </ul>
+      </div>
+  </section>
 
-          <h4>What is the Box Model</h4>
-          <p>The Box Model is a concept in which every element on a page is a rectangular box and may have width, height, padding borders, and margins.
-          </p>
-          <p> Because there are multiple widths and heights based on the width and height of each of the content, the border and the padding elements, the boz sizing property simplifies things by defining which width/height is fixed and adjusting other widths and heights accordingly.</p>
-
+  <section class="container banner">
+    <div class="row">
+        <h2>Technical Blog Part 5 - Problem Solving</h2>
       </div>
     </section>
-    <section class="container banner">
-      <div class="row">
-          <h1>Technical Blog Part 2</h1>
-        </div>
-      </section>
 
-      <section class="container">
-        <div>
-          <h2>Responsive Web Design</h2>
+    <section class="container">
+      <div>
+        <h2>Tell your non-tech friend a story about a time you:</h2>
 
-            <h4>What is grid based design</h4>
-            <p>Grid based design is organising a web page so that it is appealing to the user via a top-down, left to right, grid based flow.</p>
+          <h4>Got blocked on a simple problem</h4>
+            <p>I mostly get blocked (stuck with an issue when coding) on two things</p>
+              <ul>
+                <li>small syntax errors like using a coma instead of a semi-colon or leaving out a closing bracket</li>
+                <li>knowing what I want to do but not knowing the correct syntax (way to structure the code)</li>
+              </ul>
+          <h4>Solved a problem in an elegant way </h4>
+            <p>As with most peaople I imagine, the longer it takes to get un-blocked, the more stressed and frustrated I get</p>
+            <p>For the examples above:</p>
+              <ul>
+                <li>using the browser debugger I can normally find the small syntax errors quite quickly as it highlights where the code is broken. Although, missing brackets often shows the code breaking past the place where the bracket is missing, so this can take a little longer</li>
+                <li>syntax issues takes a lot longer as I need to find a reference on how to use a particular piece of code. I often google for pieces of syntax or use reference links, but I'm not that good at reading syntax structure yet. I also keep useful code from tutorial examples and reference them with meaningful titles so I can refer back to them. If that fails I take a nosey look at what the other members of the cohort have done as a last resort</li>
+              </ul>
+        <h2>Common methods for getting un-blocked and my progress using each method are:</h2>
+          <ul>
+            <li>Pseudocode - writing out what you want to do using common language</li>
+            <li>Trying something - [ctrl-z] is your friend and I have always been an advocate of just have a go and see what happens</li>
+            <li>Rubber ducky method - will get back to yah</li>
+            <li>Reading error messages - not as useful at this stage as they cna be quite technical</li>
+            <li>Console.logging - very useful at this stage as it visually returns the outcome so it can be checked against what you think it should be returning</li>
+            <li>Googling - the term "Your problem has been solved" introduced in week 2, is great to remember and can save a lot of time when blocked</li>
+            <li>Asking your peers for help - do this! People are good and don't mind helping. Teaching is also a great way to learn and is beneficial to the teacher as well</li>
+            <li>Asking your coaches for help - haven't needed to do this yet</li>
+            <li>Improving your provess with reflection - I would like to permanently bookmark Mondays for reflection day as it is so beneficial to stop and look over what I have learned recently and throughout the course</li>
+          </ul>
+      </div>
+  </section>
 
-            <h4>Whats all the hype about responsive webpages?</h4>
-            <p>Responsive webpages are required as there are many different devices viewing webpages.</p>
+  <section class="container">
+    <div>
+      <h2>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h2>
+        <ul>
+          <li>.map() - creates a new array from an existing array by passing each element of the original array through a function</li>
+          <li>.fiilter() - creates a new array from an existing array by filtering each element based on a condition</li>
+          <li>.reduce() - passes each element through a function adjusting an initial 'accumulator' each time to return a single value</li>
+        </ul>
+    </div>
+  </section>
 
-            <h4>What is semantic structure?</h4>
-            <p>Semantic structure is using tags that make sense to the user and the browser. They help to ensure the code is formatted in a way that is easily understandable to another user. </p>
+  <section class="container banner">
+    <div class="row">
+        <h2>Technical Blog Part 4</h2>
+      </div>
+    </section>
 
-            <h4>In addition</h4>
-            <p>I loved the heading "Your problem has been solved". Over the last two days I have lived on Google looking for answers to issues while sorting out my duel boot.</p>
-            <p>I also want to puit an "Overflow" in somewhere... as it looks like good useful tech</p>
-          </div>
-        </section>
+    <section class="container">
+      <div>
+        <h2>Javascript... Javascript... Javascript!</h2>
+
+          <h4>How does JavaScript compare to HTML and CSS?</h4>
+            <p>HTML puts the content on the webpage (text, images, lists, tables et), CSS makes it look good (headers, backgrounds, borders etc) and Javascript makes it interactive (logins, popups, database queries etc)</p>
+
+          <h4>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h4>
+            <p>Control flow is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.  </p>
+            <p>In basketball, players follow moves similarly using a control flow, Billy gets open, Jonny passes to Billy, Jonny cuts, Billy looks for a pass to Jonny. </p>
+            <p>A loop is a sequence of instruction's that is continually repeated until a certain condition is reached.
+            <p>In the basketball example above, if Billy can't get a pass to Jonny, Bobby gets open, Billy passes to Bobby, Billy cuts and Bobby looks for a pass to Billy.<p>
+            <p>The loop continues until it is broken by a certain condition. For example, a pass to the cutting player, a steal by the opposition, time is up.</p>
+
+          <h4>Explain the difference between accessing data from arrays and objects.</h4>
+            <p>Objects store data via a reference title (parameter), ie name, height, sex. Arrays store data via a reference position identified by these brackets [], starting with position [0]</p>
+            <p>To access data from an object you ask for the value associated with a specific parameter, ie, what is Billy's height.</p>
+            <p>To access data from an array, you need to know what position the data is in the array. ie, for Billy's height we would ask for the value stored in position [1] of the array (as 'name' is in position [0])</p>
+          <h4>Explain what functions are and why they are useful.</h4>
+            <p>Functions are pieces of code that carry out a particular action and can be reused with different inputs</p>
+            <p>The example above is part of a basketball 'move' called "5-out", which is basically a funtion that the basketball team executes</p>
+            <p>The move outlines 5 starting positions what each player does in each of those five positions</p>
+            <p>To break it down:</p>
+            <ul>
+              <li>The move is an object with the followign parameters: position1, position2, position3, position4, position5</li>
+              <li>The move is also a fuinction that describes what each player does in each position</li>
+              <li>The 5 players can be arranged in any order [in essence an array of 5] and take up the positions (1-5) in order and carry out the instructions for that position, regardless of which position it is</li>
+            </ul>
+      </div>
+    </section>
+
 
         <section class="container banner">
           <div class="row">
@@ -159,92 +240,75 @@
             </div>
           </section>
 
-          <section class="container banner">
-            <div class="row">
-                <h2>Technical Blog Part 4</h2>
-              </div>
-            </section>
 
-            <section class="container">
-              <div>
-                <h2>Javascript... Javascript... Javascript!</h2>
-
-                  <h4>How does JavaScript compare to HTML and CSS?</h4>
-                    <p>HTML puts the content on the webpage (text, images, lists, tables et), CSS makes it look good (headers, backgrounds, borders etc) and Javascript makes it interactive (logins, popups, database queries etc)</p>
-
-                  <h4>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h4>
-                    <p>Control flow is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.  </p>
-                    <p>In basketball, players follow moves similarly using a control flow, Billy gets open, Jonny passes to Billy, Jonny cuts, Billy looks for a pass to Jonny. </p>
-                    <p>A loop is a sequence of instruction's that is continually repeated until a certain condition is reached.
-                    <p>In the basketball example above, if Billy can't get a pass to Jonny, Bobby gets open, Billy passes to Bobby, Billy cuts and Bobby looks for a pass to Billy.<p>
-                    <p>The loop continues until it is broken by a certain condition. For example, a pass to the cutting player, a steal by the opposition, time is up.</p>
-
-                  <h4>Explain the difference between accessing data from arrays and objects.</h4>
-                    <p>Objects store data via a reference title (parameter), ie name, height, sex. Arrays store data via a reference position identified by these brackets [], starting with position [0]</p>
-                    <p>To access data from an object you ask for the value associated with a specific parameter, ie, what is Billy's height.</p>
-                    <p>To access data from an array, you need to know what position the data is in the array. ie, for Billy's height we would ask for the value stored in position [1] of the array (as 'name' is in position [0])</p>
-                  <h4>Explain what functions are and why they are useful.</h4>
-                    <p>Functions are pieces of code that carry out a particular action and can be reused with different inputs</p>
-                    <p>The example above is part of a basketball 'move' called "5-out", which is basically a funtion that the basketball team executes</p>
-                    <p>The move outlines 5 starting positions what each player does in each of those five positions</p>
-                    <p>To break it down:</p>
-                    <ul>
-                      <li>The move is an object with the followign parameters: position1, position2, position3, position4, position5</li>
-                      <li>The move is also a fuinction that describes what each player does in each position</li>
-                      <li>The 5 players can be arranged in any order [in essence an array of 5] and take up the positions (1-5) in order and carry out the instructions for that position, regardless of which position it is</li>
-                    </ul>
-              </div>
-            </section>
 
             <section class="container banner">
               <div class="row">
-                  <h2>Technical Blog Part 5 - Problem Solving</h2>
+                  <h1>Technical Blog Part 2</h1>
                 </div>
               </section>
 
               <section class="container">
                 <div>
-                  <h2>Tell your non-tech friend a story about a time you:</h2>
+                  <h2>Responsive Web Design</h2>
 
-                    <h4>Got blocked on a simple problem</h4>
-                      <p>I mostly get blocked (stuck with an issue when coding) on two things</p>
-                        <ul>
-                          <li>small syntax errors like using a coma instead of a semi-colon or leaving out a closing bracket</li>
-                          <li>knowing what I want to do but not knowing the correct syntax (way to structure the code)</li>
-                        </ul>
-                    <h4>Solved a problem in an elegant way </h4>
-                      <p>As with most peaople I imagine, the longer it takes to get un-blocked, the more stressed and frustrated I get</p>
-                      <p>For the examples above:</p>
-                        <ul>
-                          <li>using the browser debugger I can normally find the small syntax errors quite quickly as it highlights where the code is broken. Although, missing brackets often shows the code breaking past the place where the bracket is missing, so this can take a little longer</li>
-                          <li>syntax issues takes a lot longer as I need to find a reference on how to use a particular piece of code. I often google for pieces of syntax or use reference links, but I'm not that good at reading syntax structure yet. I also keep useful code from tutorial examples and reference them with meaningful titles so I can refer back to them. If that fails I take a nosey look at what the other members of the cohort have done as a last resort</li>
-                        </ul>
-                  <h2>Common methods for getting un-blocked and my progress using each method are:</h2>
-                    <ul>
-                      <li>Pseudocode - writing out what you want to do using common language</li>
-                      <li>Trying something - [ctrl-z] is your friend and I have always been an advocate of just have a go and see what happens</li>
-                      <li>Rubber ducky method - will get back to yah</li>
-                      <li>Reading error messages - not as useful at this stage as they cna be quite technical</li>
-                      <li>Console.logging - very useful at this stage as it visually returns the outcome so it can be checked against what you think it should be returning</li>
-                      <li>Googling - the term "Your problem has been solved" introduced in week 2, is great to remember and can save a lot of time when blocked</li>
-                      <li>Asking your peers for help - do this! People are good and don't mind helping. Teaching is also a great way to learn and is beneficial to the teacher as well</li>
-                      <li>Asking your coaches for help - haven't needed to do this yet</li>
-                      <li>Improving your provess with reflection - I would like to permanently bookmark Mondays for reflection day as it is so beneficial to stop and look over what I have learned recently and throughout the course</li>
-                    </ul>
+                    <h4>What is grid based design</h4>
+                    <p>Grid based design is organising a web page so that it is appealing to the user via a top-down, left to right, grid based flow.</p>
+
+                    <h4>Whats all the hype about responsive webpages?</h4>
+                    <p>Responsive webpages are required as there are many different devices viewing webpages.</p>
+
+                    <h4>What is semantic structure?</h4>
+                    <p>Semantic structure is using tags that make sense to the user and the browser. They help to ensure the code is formatted in a way that is easily understandable to another user. </p>
+
+                    <h4>In addition</h4>
+                    <p>I loved the heading "Your problem has been solved". Over the last two days I have lived on Google looking for answers to issues while sorting out my duel boot.</p>
+                    <p>I also want to puit an "Overflow" in somewhere... as it looks like good useful tech</p>
+                  </div>
+                </section>
+
+            <section class="container banner">
+              <div class="row">
+                  <h1>Technical Blog Part 1</h1>
                 </div>
-            </section>
+              </section>
 
-            <section class="container">
-              <div>
-                <h2>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h2>
-                  <ul>
-                    <li>.map() - creates a new array from an existing array by passing each element of the original array through a function</li>
-                    <li>.fiilter() - creates a new array from an existing array by filtering each element based on a condition</li>
-                    <li>.reduce() - passes each element through a function adjusting an initial 'accumulator' each time to return a single value</li>
-                  </ul>
-              </div>
-            </section>
+              <section class="container">
+                <div>
 
+                  <h2>HTML, CSS and the DOM</h2>
+
+                  <h4>Design and Structural Wishlist</h4>
+                  <h4>HTML</h4>
+                    <ul>
+                      <li>Webpage Structure</li>
+                      <li>Navigation Sections</li>
+                      <li>Divisions / Spans / Sections</li>
+                    </ul>
+
+                    <h4>CSS</h4>
+                      <ul>
+                        <li>The cascade and specificity</li>
+                        <li>Floats and Blocks</li>
+                        <li>Reusable Layouts</li>
+                      </ul>
+
+                    <h4>HTML, CSS and the DOM</h4>
+                    <p>Webpages consist of HTML (the meat and potatoes), CSS (the plating) and the DOM (what the diner receives)
+                    </p>
+
+                    <h4>What is Boxifying Design</h4>
+                    <p>Boxifying design is dividing a mockup into rectangle boxes so that it aligns with the Box Model
+                    </p>
+
+
+                    <h4>What is the Box Model</h4>
+                    <p>The Box Model is a concept in which every element on a page is a rectangular box and may have width, height, padding borders, and margins.
+                    </p>
+                    <p> Because there are multiple widths and heights based on the width and height of each of the content, the border and the padding elements, the boz sizing property simplifies things by defining which width/height is fixed and adjusting other widths and heights accordingly.</p>
+
+                </div>
+              </section>
 
 
     <!-- Footer -->
