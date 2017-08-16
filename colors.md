@@ -1,0 +1,10 @@
+bgcolor
+This attribute defines the background color of each cell of the column. It is one of the 6-digit hexadecimal code as defined in sRGB, prefixed by a '#'. One of the sixteen predefined color strings may be used:
+ 	black = "#000000"	 	green = "#008000"
+ 	silver = "#C0C0C0"	 	lime = "#00FF00"
+ 	gray = "#808080"	 	olive = "#808000"
+ 	white = "#FFFFFF"	 	yellow = "#FFFF00"
+ 	maroon = "#800000"	 	navy = "#000080"
+ 	red = "#FF0000"	 	blue = "#0000FF"
+ 	purple = "#800080"	 	teal = "#008080"
+ 	fuchsia = "#FF00FF"	 	aqua = "#00FFFF"
