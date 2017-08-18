@@ -27,18 +27,25 @@
 
     <nav class=" orange darken-4">
       <div class="nav-wrapper">
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="t-technical-blog.html">Technical Blogs</a></li>
           <li><a href="c-cultural-blog.html">Cultural Blogs</a></li>
-          <li><a href="e-elements.">HTML Elements</a></li>
+          <li><a href="html-elements.html">HTML Elements</a></li>
+          <li><a href="css-styles.html">CSS Styles</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="t-technical-blog.html">Technical Blogs</a></li>
+          <li><a href="c-cultural-blog.html">Cultural Blogs</a></li>
+          <li><a href="html-elements.html">HTML Elements</a></li>
+          <li><a href="css-styles.html">CSS Styles</a></li>
         </ul>
       </div>
     </nav>
 
-
-
-    <!-- Blogs -->
+    <!--- DOCUMENT STRUCTURE---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
@@ -78,7 +85,7 @@
         </div>
       </div>
     </div>
-
+<!--- LAYOUT---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
@@ -148,29 +155,35 @@
         </div>
       </div>
     </div>
-
+<!--- HANDY ELEMENTS---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
           <div class="card">
             <div class="card-action orange darken-4">
-              <h4 class="white-text">HTML Basic Elements</h4>
+              <h4 class="white-text">HTML Handy Elements</h4>
             </div>
             <div class="card-content">
               <h5 class="orange-text text-darken-4">The <code>< strong > </code> tag</h5>
                 <p>The HTML < strong> element gives text strong importance, and is typically displayed in bold.</p>
+                <br>
+                <p>When doing x it is <strong>imperative</strong>to do y before proceeding.</p>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
                     <div class="card-content white-text">
-                      <p><code>< p>When doing x it is < strong>imperative< /strong>to do y before proceeding.< /p></code></p>
+                      <p><code>< p>When doing x it is < strong>imperative< /strong>to do y before proceeding. < /p></code></p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="divider"></div>
                 <h5 class="orange-text text-darken-4">"The "<code>< br ></code>" tag"</h5>
-                  <p>The HTML < br > element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</p>
+                  <p>The HTML < br > element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</p><br>
+                  <p>Mozilla Foundation</br>
+                    1981 Landings Drive</br>
+                    Building K</br>
+                    Mountain View, CA 94043-0801</br</p>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
@@ -185,20 +198,23 @@
               </div>
               <div class="divider"></div>
                 <h5 class="orange-text text-darken-4">The <code>< code > </code> tag</h5>
-                  <p>The HTML < code > element represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.</p>
+                  <p>The HTML < code > element represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.</p><br>
+                    <code>var i = 0;< /code></code>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
                     <div class="card-content white-text">
-                      <p><code><p>This is how we declare a Javascript variable:<br/>
-                        < code>var i = 0;< /code></p></code></p>
+                      <p><code>This is how we declare a Javascript variable:<br/>
+                        < code>var i = 0;< /code></code></p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="divider"></div>
                 <h5 class="orange-text text-darken-4">The <code>< em > </code> tag</h5>
-                  <p>The HTML < em> element marks text that has stress emphasis. The < em> element can be nested, with each level of nesting indicating a greater degree of emphasis.</p>
+                  <p>The HTML < em> element marks text that has stress emphasis. The < em> element can be nested, with each level of nesting indicating a greater degree of emphasis.</p><br>
+                  <p>In HTML 5, what was previously called <em>block-level</em> content is now called
+                    <em>flow</em> content.</p>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
@@ -214,17 +230,17 @@
         </div>
       </div>
     </div>
-
-      <div>
-        <div class="row">
-          <div class="col s12 m10 offset-m1">
-            <div class="card">
-              <div class="card-action orange darken-4">
-                <h4 class="white-text">Hyperinks and Images</h4>
-              </div>
-              <div class="card-content">
-                <h5 class="orange-text text-darken-4">The <code>< a ></code> tag</h5>
-                  <p>The HTML < a > element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other UR</p>
+<!--- HYPERLINKS and IMAGES---------------->
+    <div>
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+          <div class="card">
+            <div class="card-action orange darken-4">
+              <h4 class="white-text">Hyperinks and Images</h4>
+            </div>
+            <div class="card-content">
+              <h5 class="orange-text text-darken-4">The <code>< a ></code> tag</h5>
+                <p>The HTML < a > element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other UR</p>
                 </br>
                 <a href="https://www.mozilla.com/">External Link</a>
               <div class="row">
@@ -245,7 +261,7 @@
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
                     <div class="card-content white-text">
-                      <p><code><img src="mdn-logo-sm.png" alt="MDN"></code></p>
+                      <p><code>< img src="mdn-logo-sm.png" alt="MDN"></code></p>
                     </div>
                   </div>
                 </div>
@@ -254,12 +270,12 @@
                 <h5 class="orange-text text-darken-4">The <code>< a and img> </code> tag</h5>
                   <p>Combination of HTML elements represents an hyperlinked image in the document.</p>
                   </br>
-                  <a href="#">MDN<img src="mdn-logo-sm.png" alt="MDN"></a>
+                  <a href="#" img src="mdn-logo-sm.png" alt="MDN">MDN</a>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card blue-grey lighten-4">
                     <div class="card-content white-text">
-                      <p><code>< a href="/">MDN< img src="mdn-logo-sm.png" alt="MDN">< /a></code></p>
+                      <p><code>< a href="/" img src="mdn-logo-sm.png" alt="MDN">MDN< /a></code></p>
                     </div>
                   </div>
                 </div>
@@ -269,13 +285,13 @@
         </div>
       </div>
     </div>
-
+<!--- FORMS and Inputs---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
           <div class="card">
             <div class="card-action orange darken-4">
-              <h4 class="white-text">Forms, Buttons and Inputs</h4>
+              <h4 class="white-text">Forms and Inputs</h4>
             </div>
             <div class="card-content">
               <h5 class="orange-text text-darken-4">The <code>< form > </code> tag</h5>
@@ -303,7 +319,6 @@
                 <p>The HTML < input> element is used to create interactive controls for web-based forms in order to accept data from the user.</p>
                 <p>The available types are as follows:</p>
                 <ul>
-
                   <li><strong>Text</strong>: A single-line text field. Line-breaks are automatically removed from the input value.</li>
                   <form action="">
                     <input type="text" id="input1">
@@ -317,7 +332,6 @@
                           </div>
                         </div>
                       </div>
-
                   <li><strong>Submit:</strong> A button that submits the form.
                     <p>The button submits the form data to the server. This is the default if the attribute is not specified, or if the attribute is dynamically changed to an empty or invalid value.</p></li>
                     <form action="">
@@ -332,7 +346,6 @@
                           </div>
                         </div>
                       </div>
-
                   <li><strong>Reset:</strong> A button that resets the contents of the form to default values.
                     <p>The reset button resets all the controls to their initial values.</p></li>
                     <form action="">
@@ -425,7 +438,6 @@
                           </div>
                         </div>
                       </div>
-
               <div class="divider"></div>
               <h5 class="orange-text text-darken-4">The <code>< button ></code> tag</h5>
                 <p>The HTML < button > element represents a clickable button that has no default behavior. It can have client-side scripts associated with the element's</li> <li>events, which are triggered when the events occur.</p></li>
@@ -536,6 +548,7 @@
         </div>
       </div>
     </div>
+<!--- LISTS---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
@@ -635,7 +648,7 @@
         </div>
       </div>
     </div>
-
+<!--- TABLES---------------->
     <div>
       <div class="row">
         <div class="col s12 m10 offset-m1">
@@ -659,20 +672,17 @@
               <h5 class="orange-text text-darken-4">The <code>< col > </code> tag</h5>
                 <p>The HTML < col> element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a < colgroup> element.</p>
               <div class="divider"></div>
-                <div class="row">
-                  <div class="col s8 m6">
-                    <table>
-                      <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                      </tr>
-                      <tr>
-                        <td>Jane</td>
-                        <td>Doe</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
+              <h5 class="orange-text text-darken-4">Basic Table</h5>
+                <table>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                  </tr>
+                  <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                  </tr>
+                </table>
               <div class="divider"></div>
               <div class="row">
                 <div class="col s12 m12">
@@ -720,84 +730,152 @@
                     <div class="card-content white-text">
                       <p><code>
                         < table></br>
-                        < thead></br>
-                        < tr></br>
-                        < th>Header content 1< /th></br>
-                        < th>Header content 2< /th></br>
-                        < /tr></br>
-                        < /thead></br>
-                        < tbody></br>
-                        < tr></br>
-                        < td>Body content 1< /td></br>
-                        < td>Body content 2< /td></br>
-                        < /tr></br>
-                        < /tbody></br>
-                        < tfoot></br>
-                        < tr></br>
-                        < td>Footer content 1< /td></br>
-                        < td>Footer content 2< /td></br>
-                        < /tr></br>
-                        < /tfoot></br>
+                          < thead></br>
+                            < tr></br>
+                              < th>Header content 1< /th></br>
+                              < th>Header content 2< /th></br>
+                            < /tr></br>
+                          < /thead></br>
+                          < tbody></br>
+                            < tr></br>
+                              < td>Body content 1< /td></br>
+                              < td>Body content 2< /td></br>
+                              < /tr></br>
+                          < /tbody></br>
+                          < tfoot></br>
+                            < tr></br>
+                              < td>Footer content 1< /td></br>
+                              < td>Footer content 2< /td></br>
+                            < /tr></br>
+                          < /tfoot></br>
                         < /table></code></p>
                     </div>
                   </div>
                 </div>
-                <div class="divider"></div>
-                  <h5 class="orange-text text-darken-4">Table with colgroup</h5>
-                    <table>
-                      <colgroup span="4"></colgroup>
-                      <tr>
-                        <th>Countries</th>
-                        <th>Capitals</th>
-                        <th>Population</th>
-                        <th>Language</th>
-                      </tr>
-                      <tr>
-                        <td>USA</td>
-                        <td>Washington D.C.</td>
-                        <td>309 million</td>
-                        <td>English</td>
-                      </tr>
-                      <tr>
-                        <td>Sweden</td>
-                        <td>Stockholm</td>
-                        <td>9 million</td>
-                        <td>Swedish</td>
-                      </tr>
-                    </table>
-                <div class="divider"></div>
+              </div>
+              <div class="divider"></div>
+                <h5 class="orange-text text-darken-4">Table with colgroup</h5>
+                  <table>
+                    <colgroup span="4"></colgroup>
+                    <tr>
+                      <th>Countries</th>
+                      <th>Capitals</th>
+                      <th>Population</th>
+                      <th>Language</th>
+                    </tr>
+                    <tr>
+                      <td>USA</td>
+                      <td>Washington D.C.</td>
+                      <td>309 million</td>
+                      <td>English</td>
+                    </tr>
+                    <tr>
+                      <td>Sweden</td>
+                      <td>Stockholm</td>
+                      <td>9 million</td>
+                      <td>Swedish</td>
+                    </tr>
+                  </table>
+              <div class="row">
+                <div class="col s12 m12">
+                  <div class="card blue-grey lighten-4">
+                    <div class="card-content white-text">
+                      <p><code>
+                        < table><br>
+                          < colgroup span="4">< /colgroup><br>
+                          < tr><br>
+                            < th>Countries< /th><br>
+                            < th>Capitals< /th><br>
+                            < th>Population< /th><br>
+                            < th>Language< /th><br>
+                          < /tr><br>
+                          < tr><br>
+                            < td>USA< /td><br>
+                            < td>Washington D.C.< /td><br>
+                            < td>309 million< /td><br>
+                            < td>English< /td><br>
+                          < /tr><br>
+                          < tr><br>
+                            < td>Sweden< /td><br>
+                            < td>Stockholm< /td><br>
+                            < td>9 million< /td><br>
+                            < td>Swedish< /td><br>
+                          < /tr><br>
+                        < /table><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
                 <h5 class="orange-text text-darken-4">Table with colgroup and col</h5>
-                    <table>
-                      <colgroup>
-                        <col style="background-color: #0f0">
-                        <col span="2">
-                      </colgroup>
-                      <tr>
-                        <th>Lime</th>
-                        <th>Lemon</th>
-                        <th>Orange</th>
-                      </tr>
-                      <tr>
-                        <td>Green</td>
-                        <td>Yellow</td>
-                        <td>Orange</td>
-                      </tr>
-                    </table>
-                <div class="divider"></div>
+                  <table>
+                    <colgroup>
+                      <col style="background-color: #0b0">
+                    </colgroup>
+                    <tr>
+                      <th>Lime</th>
+                      <th>Lemon</th>
+                      <th>Orange</th>
+                    </tr>
+                    <tr>
+                      <td>Green</td>
+                      <td>Yellow</td>
+                      <td>Orange</td>
+                    </tr>
+                  </table>
+              <div class="row">
+                <div class="col s12 m12">
+                  <div class="card blue-grey lighten-4">
+                    <div class="card-content white-text">
+                      <p><code>
+                        < table><br>
+                          < colgroup><br>
+                            < col style="background-color: #0b0"><br>
+                            < col span="2"><br>
+                          < /colgroup><br>
+                          < tr><br>
+                            < th>Lime< /th><br>
+                            < th>Lemon< /th><br>
+                            < th>Orange< /th><br>
+                          < /tr><br>
+                          < tr><br>
+                            < td>Green< /td><br>
+                            < td>Yellow< /td><br>
+                            < td>Orange< /td><br>
+                          < /tr><br>
+                        < /table><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
                 <h5 class="orange-text text-darken-4">Simple table with caption</h5>
-                    <table>
-                      <caption>Awesome caption</caption>
-                      <tr>
-                        <td>Awesome data</td>
-                      </tr>
-                    </table>
+                  <table>
+                    <caption>Awesome caption</caption>
+                    <tr>
+                      <td>Awesome data</td>
+                    </tr>
+                  </table>
+              <div class="row">
+                <div class="col s12 m12">
+                  <div class="card blue-grey lighten-4">
+                    <div class="card-content white-text">
+                      <p><code>
+                        < table><br>
+                          < caption>Awesome caption< /caption><br>
+                          < tr><br>
+                            < td>Awesome data< /td><br>
+                          < /tr><br>
+                        < /table><br>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Footer -->
     <footer class="page-footer orange darken-4">
       <div class="container">
@@ -808,7 +886,8 @@
               <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
               <li><a class="grey-text text-lighten-3" href="t-technical-blog.html">Technical Blogs</a></li>
               <li><a class="grey-text text-lighten-3" href="c-cultural-blog.html">Cultural Blogs</a></li>
-              <li><a class="grey-text text-lighten-3" href="e-elements">HTML Elements</a></li>
+              <li><a class="grey-text text-lighten-3" href="html-elements.html">HTML Elements</a></li>
+              <li><a class="grey-text text-lighten-3" href="css-styles.html">CSS Styles</a></li>
             </ul>
           </div>
           <div class="col l4 offset-l2 s12">
