@@ -7,3 +7,9 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+p, code {
+  color: grey;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
